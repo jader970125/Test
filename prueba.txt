@@ -1,0 +1,17 @@
+// Example program
+#include <iostream>
+#include <string>
+#define pi 3.14  //Define una constante, asi no se deja modificar de ninguna forma        
+
+int main()
+{
+  std::string name;                     //String es una  variable de varias letras, la libreria  es string
+  std::string surname;
+  std::cout << "What is your name? \n";
+  getline(std::cin, name);                                             // <<endl::std/ Ingrese la variable
+  std::cout <<"What is your surname? \n";                       // pregunta el texto
+  getline(std::cin, surname);
+  std::string fullname;
+  fullname= name += " " + surname;
+  std::cout << "Hello " << fullname << std::endl;                     // Imprime texto y luego variable
+}
