@@ -15,4 +15,3 @@ int main()
   fullname= name += " " + surname;
   std::cout << "Hello " << fullname << std::endl;                     // Imprime texto y luego variable
 }
- par ala rama
